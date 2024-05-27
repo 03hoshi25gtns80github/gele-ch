@@ -1,0 +1,7 @@
+CREATE DATABASE IF NOT EXISTS gelech;
+USE gelech;
+
+CREATE TABLE IF NOT EXISTS memos (
+    date DATE PRIMARY KEY,
+    memo TEXT
+);
